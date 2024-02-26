@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%; height: 70px;z-index: 100; background-color: white
+}
+aside{
+	width: 20%; min-height: 1000px;padding: 0px 20px; background-color: #F2E3B6
+}
+main{
+	width: 70%; min-height: 1000px; background-color: rgba(242,227,182,0.3)
+}
+footer{
+	width: 100%; height: 100px;z-index: 100; background-color: cadetblue
+}
+.logo{
+	padding:5px; text-align: center; width: 30%
+}
+.menu{
+	align-items: center; width:50%
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu ul li a{
+	text-decoration: none; line-height: 70px; padding: 0px 20px; color: #666666; display: block; margin-right: 5px
+}
+.menu ul li a:hover{
+	background-color: #205939; color: white; border-radius: 10px
+}
+.menu ul li{
+	position: relative
+}
+.menu .submenu{
+	position: absolute; display: flex; flex-direction: column; background-color: rgba(32,89,57,0.5); display: none; border-radius: 5px; box-shadow: 5px 5px 5px grey; z-index: 100
+}
+.menu .submenu li{
+	border-bottom: 1px solid #666666; opacity: 1
+}
+.menu .submenu li a{
+	width: 160px; color: white; height: 50px; line-height: 50px
+}
+.menu li:hover .submenu{
+	display: block
+}
+.top-corner{
+	line-height: 70px; width: 30%
+}
+.top-corner ul{
+	margin: 0; padding: 15px 20px; list-style: none; display: flex; flex-direction: row-reverse
+}
+.top-corner ul li a{
+	text-decoration: none; padding: 0px 12px; color: #666666; margin-left: 10px; color: #205939;
+}
+.top-corner ul li a:hover{
+	background-color: #205939; color: white; border-radius: 10px
+}
+.icon-1 a{
+	width: 40px; height: 40px; background-color: #F2E3B6; border-radius: 10px; display: flex; align-items: center; text-decoration: none
+}
+.icon-2 a{
+	width: 100px; height: 40px; background-color: #F2E3B6; border-radius: 10px; display: flex; align-items: center; text-decoration: none; color: white
+}
+.banner-1{
+	width: 100%; min-height: 500px; position: relative; top:0; left:0; background-color: cadetblue
+}
+.caption{
+	width: 40%; position: absolute; top:30%; left: 5%; text-align: left; z-index: 100
+}
+.text-xanh{
+	color: #205939
+}
+.text-cam{
+	color: #E5932B
+}
+h1{
+	font-size: 50px
+}
+.p-1{
+	font-size: 40px; font-weight: normal
+}
+
+h2 a{
+	border-bottom: 2px solid #945336; text-decoration: none; color: #666666
+}
+h2 a:hover{
+	background-color: rgba(148,83,54,0.6); color: white; padding: 10px
+}
+.vien{
+	border: 1px solid grey; padding: 10px; position: relative; width: 100%; overflow: hidden
+}
+.icon{
+	position: absolute; width: 80%; display: flex; justify-content: space-around; height: 40px;left: 10%; top: -10%; transition: all 1s
+}
+.icon a{
+	width: 40px; height: 40px; background-color: #EBA33F; border-radius: 50%; display: flex; justify-content: space-around;align-items: center; text-decoration: none; color: white
+}
+.vien:hover .icon{
+	top: 40%
+}
+.icon a:hover{
+	background-color: white; color: #E5932B
+}
+.vien-2{
+	background-color:rgba(242,227,182,0.7); border: 1px solid rgba(242,227,182,0.3); padding: 20px; display: flex; justify-content: space-around; align-items: center; border-radius: 5%; box-shadow: 3px 3px 3px grey
+}
+.p-2 a{
+	text-decoration: none; color: darkred
+}
+.p-2 a:hover{
+	color: white; border-bottom: 1px solid #945336
+}
+.container-2{
+	width: 80%; position: absolute; top:10%; left: 15%; text-align: left; display: flex; flex-direction: column; justify-content: space-around
+}
+.vien-3{
+	display: flex; flex-direction: column; justify-content: space-between
+}
+
+.form-control{
+	padding: 8px; margin-bottom: 5px; width: 100%
+}
+#feature{
+	width: 100%; min-height: 500px; background-image:url("../../dethi-furniture/images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: center bottom
+}
+.pt-30{
+	padding: 30px
+}
+.pb-20{
+	padding-bottom: 20px
+}
+.pf	{
+	font-size: 30px; font-weight: bold;
+}
+.pf a{
+	border-bottom: 2px solid #945336; text-decoration: none; color: #666666
+}
+.pf a:hover{
+	background-color: rgba(148,83,54,0.6); color: white; padding: 10px
+}
+.vien .tieude{
+	font-size: 18px; font-weight: bold
+}
+#contact{
+	width: 100%; min-height: 100px; background: url("../images/banner-4.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center center top; display: flex; justify-content: center; align-items: center
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#205939;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #slide .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: rgba(242,227,182,1.00)}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:50px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+#slide .owl-nav .owl-next{ position:absolute; right:2%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:2%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#205939;
+      text-decoration: none; }
+aside ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+aside ul li a{
+	padding: 10px; display: block; text-decoration: none; color: #666666
+}
+
+aside ul li a:hover{
+	background-color: darkred;color: white
+}
+.cat ul{
+	margin: 0; padding: 0; list-style: none; display: flex; background-color: rgba(32,89,57,1); border-radius: 5px; z-index: 100
+}
+.cat ul li a{
+	text-decoration: none; padding: 15px; color: #666666; ; color: white
+}
+.cat ul li a:hover{
+	background-color: rgba(32,89,57,0.5); color: white
+}
+.cat .subcat{
+	display: flex; flex-direction: column; justify-content: center; padding: 5px 10px;  display: block; border-radius: 5px; background-color: white; margin: 20px 0px 20px 20px; width: 90%
+}
+.cat .subcat li{
+	border-bottom: 1px solid rgba(32,89,57,0.5);
+}
+.cat .subcat li a{
+	width: 100%; height: 50px; font-size: 12px; color: #205939;
+}
+.p-2{
+	font-size: 12px; line-height: 15px
+}
+.p-3{
+	background-color: #EBA33F; border-radius: 10px; border: 1px solid #EBA33F; 
+}
+.p-4 a{
+	text-decoration: none; color: white
+}
+.p-4 a:hover{color: #205939
+}
+.p-5 a{
+	text-decoration: none; color: white
+}
+.p-5 a:hover{color: #EBA33F
+}
+.h2-1 {
+	border-bottom: 1px solid #205939; text-decoration: none; color: #205939; margin:0px 15px; padding: 15px
+}
